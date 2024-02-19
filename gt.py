@@ -11,7 +11,7 @@ from aiogram.dispatcher.filters import Text
 import cv2
 
 logging.basicConfig(level = logging.INFO)
-bot = Bot(token = '6439910213:AAFzLo2QzTEJxD9-AcwAYDMcg99iuRf9Yeo')
+bot = Bot(token = TOKIENAPI)
 dp = Dispatcher(bot)
 
 FORMATTED_TEXT = '''
